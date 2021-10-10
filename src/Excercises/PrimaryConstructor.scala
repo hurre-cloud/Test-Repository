@@ -1,6 +1,10 @@
 package Excercises
 
 class PrimaryConstructor(private val fName: String, var lName: String) {
+ def getName {
+  println(fName)
+ }
+
  private val home = System.getProperty("user.home")
 
  println("Constructor Begin")
